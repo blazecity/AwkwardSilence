@@ -22,18 +22,12 @@ class QuestionHandler: ObservableObject {
         questions = []
         askedQuestions = []
         self.randomOrder = randomOrder
-        lastQuestionIndex = 0
+        lastQuestionIndex = -1
         self.fileName = fileName
         loadQuestions()
     }
     
     func nextQuestion() {
-        if askedQuestions.count == numberOfQuestions {
-            currentQuestion = "All questions have been asked. Click on 'Next question' to restart."
-            askedQuestions = []
-            return
-        }
-        
         if randomOrder {
             lastQuestionIndex = Int.random(in: 0...numberOfQuestions - 1)
             while askedQuestions.contains(lastQuestionIndex) {
@@ -42,8 +36,14 @@ class QuestionHandler: ObservableObject {
         } else {
             lastQuestionIndex += 1
         }
-        
-        currentQuestion = questions[lastQuestionIndex]
+        if askedQuestions.count == numberOfQuestions {
+            currentQuestion = "All questions have been asked. Click on 'Next question' to restart."
+            askedQuestions = []
+            lastQuestionIndex = -1
+            return
+        } else {
+            currentQuestion = questions[lastQuestionIndex]
+        }
         askedQuestions.append(lastQuestionIndex)
     }
     
