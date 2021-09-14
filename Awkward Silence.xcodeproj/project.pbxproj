@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A0B3B0F26EBD42F00BF1EB1 /* Awkward_SilenceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0B3B0E26EBD42F00BF1EB1 /* Awkward_SilenceApp.swift */; };
+		3A0B3B1126EBD42F00BF1EB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0B3B1026EBD42F00BF1EB1 /* ContentView.swift */; };
+		3A0B3B1626EBD43000BF1EB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0B3B1526EBD43000BF1EB1 /* Preview Assets.xcassets */; };
+		3AC52C8B26F0BD2D004662F1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC52C8A26F0BD2D004662F1 /* CardView.swift */; };
+		3AC52C8F26F0BE9A004662F1 /* questions_fun_small_talk.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3AC52C8C26F0BE9A004662F1 /* questions_fun_small_talk.txt */; };
+		3AC52C9026F0BE9A004662F1 /* questions_to_fall_in_love.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3AC52C8D26F0BE9A004662F1 /* questions_to_fall_in_love.txt */; };
+		3AC52C9126F0BE9A004662F1 /* questions_for_date.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3AC52C8E26F0BE9A004662F1 /* questions_for_date.txt */; };
+		3AC52C9326F0DD34004662F1 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC52C9226F0DD34004662F1 /* QuestionView.swift */; };
+		3AC52C9526F0E15E004662F1 /* TopicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC52C9426F0E15E004662F1 /* TopicView.swift */; };
+		3AC52C9726F1037B004662F1 /* QuestionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC52C9626F1037B004662F1 /* QuestionHandler.swift */; };
+		3AC52C9926F11287004662F1 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC52C9826F11287004662F1 /* Util.swift */; };
+		3AC52C9B26F12779004662F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC52C9A26F12779004662F1 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A0B3B0B26EBD42F00BF1EB1 /* Awkward Silence.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awkward Silence.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A0B3B0E26EBD42F00BF1EB1 /* Awkward_SilenceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Awkward_SilenceApp.swift; sourceTree = "<group>"; };
+		3A0B3B1026EBD42F00BF1EB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A0B3B1526EBD43000BF1EB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A0B3B1726EBD43000BF1EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AC52C8A26F0BD2D004662F1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3AC52C8C26F0BE9A004662F1 /* questions_fun_small_talk.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questions_fun_small_talk.txt; sourceTree = "<group>"; };
+		3AC52C8D26F0BE9A004662F1 /* questions_to_fall_in_love.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questions_to_fall_in_love.txt; sourceTree = "<group>"; };
+		3AC52C8E26F0BE9A004662F1 /* questions_for_date.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questions_for_date.txt; sourceTree = "<group>"; };
+		3AC52C9226F0DD34004662F1 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		3AC52C9426F0E15E004662F1 /* TopicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicView.swift; sourceTree = "<group>"; };
+		3AC52C9626F1037B004662F1 /* QuestionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionHandler.swift; sourceTree = "<group>"; };
+		3AC52C9826F11287004662F1 /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		3AC52C9A26F12779004662F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A0B3B0826EBD42F00BF1EB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A0B3B0226EBD42F00BF1EB1 = {
+			isa = PBXGroup;
+			children = (
+				3A0B3B0D26EBD42F00BF1EB1 /* Awkward Silence */,
+				3A0B3B0C26EBD42F00BF1EB1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A0B3B0C26EBD42F00BF1EB1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A0B3B0B26EBD42F00BF1EB1 /* Awkward Silence.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A0B3B0D26EBD42F00BF1EB1 /* Awkward Silence */ = {
+			isa = PBXGroup;
+			children = (
+				3AC52C9A26F12779004662F1 /* Assets.xcassets */,
+				3A0B3B0E26EBD42F00BF1EB1 /* Awkward_SilenceApp.swift */,
+				3A0B3B1026EBD42F00BF1EB1 /* ContentView.swift */,
+				3A0B3B1726EBD43000BF1EB1 /* Info.plist */,
+				3A0B3B1426EBD43000BF1EB1 /* Preview Content */,
+				3AC52C8A26F0BD2D004662F1 /* CardView.swift */,
+				3AC52C8E26F0BE9A004662F1 /* questions_for_date.txt */,
+				3AC52C8C26F0BE9A004662F1 /* questions_fun_small_talk.txt */,
+				3AC52C8D26F0BE9A004662F1 /* questions_to_fall_in_love.txt */,
+				3AC52C9226F0DD34004662F1 /* QuestionView.swift */,
+				3AC52C9426F0E15E004662F1 /* TopicView.swift */,
+				3AC52C9626F1037B004662F1 /* QuestionHandler.swift */,
+				3AC52C9826F11287004662F1 /* Util.swift */,
+			);
+			path = "Awkward Silence";
+			sourceTree = "<group>";
+		};
+		3A0B3B1426EBD43000BF1EB1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A0B3B1526EBD43000BF1EB1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A0B3B0A26EBD42F00BF1EB1 /* Awkward Silence */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A0B3B1A26EBD43000BF1EB1 /* Build configuration list for PBXNativeTarget "Awkward Silence" */;
+			buildPhases = (
+				3A0B3B0726EBD42F00BF1EB1 /* Sources */,
+				3A0B3B0826EBD42F00BF1EB1 /* Frameworks */,
+				3A0B3B0926EBD42F00BF1EB1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Awkward Silence";
+			productName = "Awkward Silence";
+			productReference = 3A0B3B0B26EBD42F00BF1EB1 /* Awkward Silence.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A0B3B0326EBD42F00BF1EB1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					3A0B3B0A26EBD42F00BF1EB1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A0B3B0626EBD42F00BF1EB1 /* Build configuration list for PBXProject "Awkward Silence" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A0B3B0226EBD42F00BF1EB1;
+			productRefGroup = 3A0B3B0C26EBD42F00BF1EB1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A0B3B0A26EBD42F00BF1EB1 /* Awkward Silence */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A0B3B0926EBD42F00BF1EB1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0B3B1626EBD43000BF1EB1 /* Preview Assets.xcassets in Resources */,
+				3AC52C9126F0BE9A004662F1 /* questions_for_date.txt in Resources */,
+				3AC52C9026F0BE9A004662F1 /* questions_to_fall_in_love.txt in Resources */,
+				3AC52C8F26F0BE9A004662F1 /* questions_fun_small_talk.txt in Resources */,
+				3AC52C9B26F12779004662F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A0B3B0726EBD42F00BF1EB1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AC52C9326F0DD34004662F1 /* QuestionView.swift in Sources */,
+				3A0B3B1126EBD42F00BF1EB1 /* ContentView.swift in Sources */,
+				3AC52C8B26F0BD2D004662F1 /* CardView.swift in Sources */,
+				3AC52C9726F1037B004662F1 /* QuestionHandler.swift in Sources */,
+				3AC52C9926F11287004662F1 /* Util.swift in Sources */,
+				3A0B3B0F26EBD42F00BF1EB1 /* Awkward_SilenceApp.swift in Sources */,
+				3AC52C9526F0E15E004662F1 /* TopicView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A0B3B1826EBD43000BF1EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A0B3B1926EBD43000BF1EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A0B3B1B26EBD43000BF1EB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Awkward Silence/Preview Content\"";
+				DEVELOPMENT_TEAM = 73V4455UZ3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Awkward Silence/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.jbaumann.Awkward-Silence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A0B3B1C26EBD43000BF1EB1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Awkward Silence/Preview Content\"";
+				DEVELOPMENT_TEAM = 73V4455UZ3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Awkward Silence/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ch.jbaumann.Awkward-Silence";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A0B3B0626EBD42F00BF1EB1 /* Build configuration list for PBXProject "Awkward Silence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0B3B1826EBD43000BF1EB1 /* Debug */,
+				3A0B3B1926EBD43000BF1EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A0B3B1A26EBD43000BF1EB1 /* Build configuration list for PBXNativeTarget "Awkward Silence" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A0B3B1B26EBD43000BF1EB1 /* Debug */,
+				3A0B3B1C26EBD43000BF1EB1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3A0B3B0326EBD42F00BF1EB1 /* Project object */;
+}
