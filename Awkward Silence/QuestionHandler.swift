@@ -15,6 +15,7 @@ class QuestionHandler: ObservableObject {
     var randomOrder: Bool
     var lastQuestionIndex: Int
     var fileName: String
+    var randomIndizes: [Int]
     
     init(fileName: String, randomOrder: Bool) {
         currentQuestion = "Let's start..."
@@ -24,27 +25,24 @@ class QuestionHandler: ObservableObject {
         self.randomOrder = randomOrder
         lastQuestionIndex = -1
         self.fileName = fileName
+        randomIndizes = []
         loadQuestions()
     }
     
     func nextQuestion() {
-        if randomOrder {
-            lastQuestionIndex = Int.random(in: 0...numberOfQuestions - 1)
-            while askedQuestions.contains(lastQuestionIndex) {
-                lastQuestionIndex = Int.random(in: 0...numberOfQuestions - 1)
-            }
-        } else {
-            lastQuestionIndex += 1
-        }
+        lastQuestionIndex += 1
         if askedQuestions.count == numberOfQuestions {
             currentQuestion = "All questions have been asked. Click on 'Next question' to restart."
             askedQuestions = []
             lastQuestionIndex = -1
+            if randomOrder {
+                randomIndizes.shuffle()
+            }
             return
-        } else {
-            currentQuestion = questions[lastQuestionIndex]
         }
-        askedQuestions.append(lastQuestionIndex)
+        let lastQuestion = randomIndizes[lastQuestionIndex]
+        currentQuestion = questions[lastQuestion]
+        askedQuestions.append(lastQuestion)
     }
     
     func loadQuestions() {
@@ -55,6 +53,10 @@ class QuestionHandler: ObservableObject {
             s.isEmpty
         }
         numberOfQuestions = lines.count
+        randomIndizes = [Int](0...numberOfQuestions - 1)
+        if randomOrder {
+            randomIndizes.shuffle()
+        }
         questions = lines
     }
 }
