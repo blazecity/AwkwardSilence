@@ -10,6 +10,7 @@
 		3A0B3B0F26EBD42F00BF1EB1 /* Awkward_SilenceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0B3B0E26EBD42F00BF1EB1 /* Awkward_SilenceApp.swift */; };
 		3A0B3B1126EBD42F00BF1EB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0B3B1026EBD42F00BF1EB1 /* ContentView.swift */; };
 		3A0B3B1626EBD43000BF1EB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A0B3B1526EBD43000BF1EB1 /* Preview Assets.xcassets */; };
+		3A8B76FB26F249E600F32BA7 /* questions_more_weirdness.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3A8B76FA26F249E600F32BA7 /* questions_more_weirdness.txt */; };
 		3AC52C8B26F0BD2D004662F1 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC52C8A26F0BD2D004662F1 /* CardView.swift */; };
 		3AC52C8F26F0BE9A004662F1 /* questions_fun_small_talk.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3AC52C8C26F0BE9A004662F1 /* questions_fun_small_talk.txt */; };
 		3AC52C9026F0BE9A004662F1 /* questions_to_fall_in_love.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3AC52C8D26F0BE9A004662F1 /* questions_to_fall_in_love.txt */; };
@@ -27,6 +28,7 @@
 		3A0B3B1026EBD42F00BF1EB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A0B3B1526EBD43000BF1EB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A0B3B1726EBD43000BF1EB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A8B76FA26F249E600F32BA7 /* questions_more_weirdness.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questions_more_weirdness.txt; sourceTree = "<group>"; };
 		3AC52C8A26F0BD2D004662F1 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		3AC52C8C26F0BE9A004662F1 /* questions_fun_small_talk.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questions_fun_small_talk.txt; sourceTree = "<group>"; };
 		3AC52C8D26F0BE9A004662F1 /* questions_to_fall_in_love.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = questions_to_fall_in_love.txt; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				3AC52C8E26F0BE9A004662F1 /* questions_for_date.txt */,
 				3AC52C8C26F0BE9A004662F1 /* questions_fun_small_talk.txt */,
 				3AC52C8D26F0BE9A004662F1 /* questions_to_fall_in_love.txt */,
+				3A8B76FA26F249E600F32BA7 /* questions_more_weirdness.txt */,
 				3AC52C9226F0DD34004662F1 /* QuestionView.swift */,
 				3AC52C9426F0E15E004662F1 /* TopicView.swift */,
 				3AC52C9626F1037B004662F1 /* QuestionHandler.swift */,
@@ -153,6 +156,7 @@
 				3A0B3B1626EBD43000BF1EB1 /* Preview Assets.xcassets in Resources */,
 				3AC52C9126F0BE9A004662F1 /* questions_for_date.txt in Resources */,
 				3AC52C9026F0BE9A004662F1 /* questions_to_fall_in_love.txt in Resources */,
+				3A8B76FB26F249E600F32BA7 /* questions_more_weirdness.txt in Resources */,
 				3AC52C8F26F0BE9A004662F1 /* questions_fun_small_talk.txt in Resources */,
 				3AC52C9B26F12779004662F1 /* Assets.xcassets in Resources */,
 			);

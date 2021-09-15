@@ -14,6 +14,10 @@ struct TopicView: View {
             NavigationLink(destination: QuestionView(questionHandler: QuestionHandler(fileName: "questions_to_fall_in_love", randomOrder: false))) {
                 CardView(card: Card(title: "Falling in love", description: "36 questions to fall in love... The person who asks the question answers first.  At the end, look into each others' eyes for 2-4 minutes.", backgroundColor: Color.init(red: 255 / 255, green: 230 / 255, blue: 230 / 255)))
             }
+            
+            NavigationLink(destination: QuestionView(questionHandler: QuestionHandler(fileName: "questions_more_weirdness", randomOrder: true))) {
+                CardView(card: Card(title: "More weird questions", description: "Even more random weird questions", backgroundColor: Color.init(red: 153 / 255, green: 153 / 255, blue: 255 / 255)))
+            }
         }
     }
 }
